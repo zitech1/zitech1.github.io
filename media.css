@@ -1,0 +1,221 @@
+/*Media 991px*/
+/*///////////////////////////////*/
+@media (max-width:991px) {
+    .header-info {
+        max-width: 45%;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .call-back  {
+        width: 100%;
+        display: flex;
+        margin: 20px 0;
+        justify-content: center;
+    }
+    .call-back  > div{
+       margin: 0 5px 0 5px;
+    }
+
+    .sertification {
+        text-align: center;
+    }
+    .search-media {
+        max-width: 30%;
+        width: 100%;
+        margin-right: 10px;
+    }
+    .form-search {
+        display: inline-flex;
+        width: 100%;
+    }
+    .form-search .search-btn {
+        max-width: 260px;
+        width: 100%;
+    }
+    .search-media .search {
+        display: block;
+    }
+    .order-media {
+        max-width: 65%;
+        width: 100%;
+    }
+    .order-media .online-order {
+        display: flex;
+        align-items: center;
+    }
+    .order-media .online-order .wrapper__btn-order {
+        width: auto;
+    }
+    .order-media .online-order .btn-order {
+        font-size: 15px;
+    }
+    .online-order .span_6_of_10 {
+        max-width: 55%;
+        width: 100%;
+    }
+
+    .main-section__registration {
+        max-width: 95%;
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+    }
+
+    .main-section__registration .w-73 {
+        width: auto;
+        margin-right: 10px;
+    }
+    .main-section__registration .but-reg {
+        width: auto;
+    }
+    .slider-block {
+        max-width: 960px;
+        width: 100%;
+    }
+    .slider-wrapper {
+        max-width: 960px;
+        width: 100%;
+    }
+
+    .scroll-content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .slider nav {
+        font-size: 15px;
+        text-align: center;
+    }
+    .h-slider {
+      font-size: 25px;
+    }
+    .bg-slider {
+      background-position: center;
+      background-size: contain;
+      background-position: center;
+      max-width: 767px;
+      width: 100%;
+    }
+    .bg-slider .info-slider {
+          background-color: rgba(255,255,255, .8);
+    }
+    .hamburger {
+      display: block;
+    }
+    .second-line-header ul {
+      position: absolute;
+      list-style: none;
+      padding: 0;
+      max-width: 100%;
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      background-color: #EFEFEF;
+      z-index: 2;
+      left: -3000px;
+      transition: all .4s;
+      /* color: #fff; */
+  }
+  .second-line-header ul li {
+    margin-bottom: 10px;
+  }
+  .second-line-header ul li a {
+    color: #000;
+  }
+  .second-line-header .active-menu {
+    left: 0;
+  }
+.second-line-header {
+  margin: 0;
+  padding-bottom: 20px;
+}
+}
+
+/*End media 991px*/
+
+/*Media 767px*/
+/*////////////////////////*/
+@media (max-width:767px) {
+    .width-100 {
+        width: 100%;
+    }
+    .text-xs-center {
+        text-align: center;
+    }
+    .header-info {
+        max-width: 100%;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .call-back {
+        flex-flow: column;
+        max-width: 320px;
+        width: 100%;
+        margin: auto;
+    }
+    .call-back  > div {
+        margin: 10px 5px;
+    }
+    .search-media {
+        max-width: 320px;
+        width: 100%;
+        margin-right: 0;
+        display: block;
+        margin: auto;
+    }
+    .order-media {
+        max-width: 320px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .order-media .online-order {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .online-order .span_6_of_10 {
+        max-width: 100%;
+    }
+    .main-section__registration {
+        flex-flow: row wrap;
+        justify-content: center;
+        max-width: 320px;
+        padding: 10px 0;
+    }
+    .main-section__registration .w-73 {
+        margin: 0 0 10px;
+    }
+    .slider nav {
+        display: none;
+    }
+    .scroll-content-item {
+        margin-bottom: 20px;
+    }
+    .footer {
+        height: auto;
+        padding: 0 0 10px;
+    }
+    .stuffing{
+      max-width: 320px;
+      width: 100%;
+      margin: 0;
+      font-size: 13px;
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .h-slider {
+      display: inline-block;
+      font-size: 20px;
+    }
+    .info-slider {
+      margin: 0 0 0 25px;
+    }
+    .btn-left, .btn-right {
+      top: 70%;
+    }
+}
